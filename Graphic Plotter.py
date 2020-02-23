@@ -20,10 +20,6 @@ class Plotter(tk.Tk):
         self.text2.set('2,4,6,8,10')
       
         
-        #self.bg_img = tk.PhotoImage(self, file = '26-512.png')
-        #self.bg_label = tk.Label(self, image = self.bg_img)
-        #self.bg_label.place(x=0, y=0, relewidth=1, relheight=1)
-        
         self.label1 = tk.Label(self, text = 'X-coordinates').pack(anchor = tk.W)
         self.input_entry1 = tk.Entry(self, textvar= self.text1)
         self.input_entry1.pack(fill=tk.BOTH, padx=20, pady=20)
